@@ -43,7 +43,7 @@ function promiseRace(promises) {
   return race(promises);
 }
 
-//   Kod testowy.
+// Kod testowy.
 promiseAll([]).then(result => {
   console.log('To powinien być []:', JSON.stringify(result));
 });
