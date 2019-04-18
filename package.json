@@ -1,0 +1,36 @@
+{
+  "name": "frontend-lvl-up-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --watch --mode=development --config webpack.config.js"
+  },
+  "author": "Filip Wroński",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^2.1.1",
+    "es6-promise": "^4.2.6",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "autoprefixer": "^6.5.4",
+    "babel-loader": "^8.0.5",
+    "file-loader": "^3.0.1",
+    "html-webpack-inline-svg-plugin": "^1.2.4",
+    "html-webpack-plugin": "^3.2.0",
+    "svg-loader": "0.0.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "browserslist": "> 2%, not dead"
+}
